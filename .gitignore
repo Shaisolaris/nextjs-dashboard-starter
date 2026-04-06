@@ -5,8 +5,6 @@ build/
 node_modules/
 
 # Env
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -15,3 +13,4 @@ node_modules/
 .DS_Store
 *.log
 .vercel
+config.bat
