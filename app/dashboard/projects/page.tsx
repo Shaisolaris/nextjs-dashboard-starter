@@ -48,7 +48,7 @@ export default async function ProjectsPage() {
 
       {/* Project grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-        {projects.map((project) => (
+        {projects.map((project: any) => (
           <div key={project.id} className="card p-5 hover:shadow-md transition-shadow duration-200 group">
             {/* Card header */}
             <div className="flex items-start justify-between mb-3">
