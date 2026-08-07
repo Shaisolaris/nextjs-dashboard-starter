@@ -39,7 +39,7 @@ export default function SettingsPage() {
           </div>
           <div>
             <label className="label">Email</label>
-            <input type="email" className="input" defaultValue="shai@solarisenterprise.com" />
+            <input type="email" className="input" defaultValue="hello@solaris.studio" />
           </div>
           <div>
             <label className="label">Timezone</label>

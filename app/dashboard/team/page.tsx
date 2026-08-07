@@ -7,7 +7,7 @@ export const metadata: Metadata = { title: 'Team' };
 
 async function getTeamMembers(): Promise<User[]> {
   return [
-    { id: '1', name: 'Shai Ali',    email: 'shai@solarisenterprise.com', role: 'owner',  createdAt: new Date(Date.now() - 365 * 86400000).toISOString() },
+    { id: '1', name: 'Shai',        email: 'hello@solaris.studio',       role: 'owner',  createdAt: new Date(Date.now() - 365 * 86400000).toISOString() },
     { id: '2', name: 'Sarah Kim',   email: 'sarah@example.com',          role: 'admin',  createdAt: new Date(Date.now() - 90  * 86400000).toISOString() },
     { id: '3', name: 'James Tan',   email: 'james@example.com',          role: 'member', createdAt: new Date(Date.now() - 60  * 86400000).toISOString() },
     { id: '4', name: 'Priya Mehta', email: 'priya@example.com',          role: 'member', createdAt: new Date(Date.now() - 45  * 86400000).toISOString() },
